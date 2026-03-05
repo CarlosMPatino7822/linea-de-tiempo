@@ -10,6 +10,18 @@
             border-collapse: collapse;
             border: none;
         }
+        table{
+            border-collapse: collapse; 
+            border-spacing: 0; 
+            background-color:#000000; 
+            color:white; 
+            border: none;
+            width: 1000px;
+        }
+        table.inicial{
+            width: 1000px;
+            margin-left: 175px;
+        }
 
         td.celda_sin {
             padding: 0;
@@ -20,109 +32,113 @@
             padding-left: 20px;
             border: 1px solid #85BAD9;
         }
+        h1{
+            margin-top: 30px; 
+            margin-left: 500px; 
+            width: 50%
+        }
+        h2{
+            color: #ffffff;
+        }
+        a{
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 12px; 
+            background-color: #000000; 
+            font-weight: 600; 
+            text-align: center; 
+            text-transform: uppercase; 
+            vertical-align: middle; 
+            color: #ffffff;
+        }
+        tr{
+            border: none;
+        }
+        td{
+            border: none;
+            width: 200px;
+        }
+        img{
+            border: none;
+            width: 1000px;
+        }
+
     </style>
 </head>
 
 <body>
-    <h1 style="margin-top: 30px; margin-left: 500px ; width: 50%">Linea de tiempo del internet</h1>
-    <table class="tabla_sin" width="1000" border="0" cellspacing="0" cellpadding="0" align="center"
-        style="border-collapse: collapse; border-spacing: 0; border: none;">
-        <tr style="border: none;">
-            <td class="celda_sin" style="border: none;">
+    <h1>Linea de tiempo del internet</h1>
+    <table class="inicial" 
+        <tr>
+            <td class="celda_sin">
                 <!-- INICIO TABLA GENERAL -->
-                <table class="tabla_sin" width="1000" border="0" cellspacing="0" cellpadding="0" align="center"
-                    style="border-collapse: collapse; border-spacing: 0; border: none;">
-                    <tr style="border: none;">
-                        <td class="celda_sin" width="1000" height="" style="border: none;">
-                            <table class="tabla_sin" width="1000" border="0" cellspacing="0" cellpadding="0"
-                                align="center" style="border-collapse: collapse; border-spacing: 0; border: none;">
-                                <tr style="border: none;">
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff"> 1969</h2>
-                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
-                                            href="1969.html">Se establece la primera red de computadoras interconectadas por el
+                <table class="tabla_sin">
+                    <tr>
+                        <td class="celda_sin" >
+                            <table class="tabla_sin">
+                                <tr>
+                                    <td class="celda_con" >
+                                        <h2> 1969</h2>
+                                        <a href="1969.html">Se establece la primera red de computadoras interconectadas por el
                                             Departamento de Defensa de Estados Unidos. Es el precursor directo de
                                             Internet.</a>
                                     </td>
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff">1971</h2><a
-                                            style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
+                                    <td class="celda_con" >
+                                        <h2>1971</h2><a
                                             href="1971.html">Ray Tomlinson envía el primer email y populariza el uso del símbolo
                                             @ para separar usuario y servidor.</a>
                                     </td>
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff">1983</h2>
-                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
-                                            href="1983.html">ARPANET adopta oficialmente el protocolo TCP/IP, permitiendo la
+                                    <td class="celda_con" >
+                                        <h2>1983</h2>
+                                        <a href="1983.html">ARPANET adopta oficialmente el protocolo TCP/IP, permitiendo la
                                             interconexión de múltiples redes. Se considera el nacimiento oficial de
                                             Internet moderno.</a>
                                     </td>
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff">1989</h2>
-                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
-                                            href="1989.html">Tim Berners-Lee propone un sistema de hipertexto para compartir
+                                    <td class="celda_con" >
+                                        <h2>1989</h2>
+                                        <a href="1989.html">Tim Berners-Lee propone un sistema de hipertexto para compartir
                                             información en el CERN.</a>
                                     </td>
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff">1991</h2><a
-                                            style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
+                                    <td class="celda_con" >
+                                        <h2>1991</h2><a
                                             href="1991.html">Se lanza oficialmente la World Wide Web, permitiendo que
                                             cualquier persona pueda crear y consultar páginas web.</a>
                                     </td>
                                 </tr>
                             </table>
                             <!-- Inicio Linea del tiempo -->
-                            <table class="tabla_sin" width="100" border="0" align="center" cellpadding="0"
-                                cellspacing="0"
-                                style="border-collapse: collapse; border-spacing: 0; background-color:#000000; color:white; border: none;">
-                                <tr style="border: none;">
-                                    <td class="celda_sin" width="1000" height="161" style="border: none;">
-                                        <img style="display: block; border: 0px;" src="Sintítulo.png" width="1000px"
-                                            height="" alt="Linea del tiempo">
+                            <table class="tabla_sin">
+                                <tr>
+                                    <td class="celda_sin" >
+                                        <img src="Sintítulo.png" alt="Linea del tiempo">
                                     </td>
                                 </tr>
                             </table>
                             <!-- Fin Linea del tiempo -->
-                            <table class="tabla_sin" width="1000" border="0" cellspacing="0" cellpadding="0"
-                                align="center" style="border-collapse: collapse; border-spacing: 0; border: none;">
-                                <tr style="border: none;">
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff"> 1998</h2>
-                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
-                                            href="1998.html">Larry Page y Sergey Brin crean el buscador que revolucionaría la
+                            <table class="tabla_sin" >
+                                align="center">
+                                <tr>
+                                    <td class="celda_con" >
+                                        <h2> 1998</h2>
+                                        <a href="1998.html">Larry Page y Sergey Brin crean el buscador que revolucionaría la
                                             forma de encontrar información en Internet.</a>
                                     </td>
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff">2001</h2><a
-                                            style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
+                                    <td class="celda_con" >
+                                        <h2>2001</h2><a
                                             href="2001.html">Se lanza la enciclopedia colaborativa más grande del mundo, basada
                                             en la edición abierta por usuarios.</a>
                                     </td>
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff">2004</h2>
-                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
-                                            href="2004.html">Mark Zuckerberg funda la red social que impulsaría la era de las
+                                    <td class="celda_con" >
+                                        <h2>2004</h2>
+                                        <a href="2004.html">Mark Zuckerberg funda la red social que impulsaría la era de las
                                             redes sociales globales.</a>
                                     </td>
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff">2005</h2>
-                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
-                                            href="2005.html">Se crea la plataforma que transformó la forma de consumir y
+                                    <td class="celda_con" >
+                                        <h2>2005</h2>
+                                        <a href="2005.html">Se crea la plataforma que transformó la forma de consumir y
                                             compartir video en línea.</a>
                                     </td>
-                                    <td style="background-color: black;" class="celda_con" width="200" height=""
-                                        style="border: none;">
-                                        <h2 style="color: #ffffff">2007</h2><a
-                                            style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000000; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; color: #ffffff;"
+                                    <td class="celda_con" >
+                                        <h2>2007</h2><a
                                             href="2007.html">Apple introduce el iPhone, impulsando el acceso masivo a Internet
                                             desde dispositivos móviles</a>
                                     </td>
